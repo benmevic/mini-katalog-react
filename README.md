@@ -1,15 +1,16 @@
-# 💧 Drink Water Reminder
+# 🛍️ Mini Katalog Uygulaması
 
-Günlük su içme alışkanlığını takip etmeni sağlayan Flutter ile geliştirilmiş mobil uygulama.
+Flutter ile geliştirilmiş minimalist ve modern bir ürün katalog uygulaması.
 
 ## 📱 Özellikler
 
-- Günlük su içme hedefi belirleme
-- Hızlı su ekleme (150ml, 250ml, 500ml, 1L)
-- Dairesel ilerleme göstergesi
-- İçme geçmişi takibi
+- Ürün listeleme (GridView)
+- Kategoriye göre filtreleme
+- Ürün arama
+- Ürün detay sayfası
+- Sepete ekleme ve sepet yönetimi
 - Sayfa geçişleri (Navigator + Named Routes)
-- Route Arguments ile veri taşıma
+- Basit state güncelleme
 
 ## 🛠️ Kullanılan Teknolojiler
 
@@ -22,11 +23,11 @@ Günlük su içme alışkanlığını takip etmeni sağlayan Flutter ile gelişt
 1. Flutter SDK kurulu olduğundan emin ol
 2. Repoyu klonla:
 ```
-   git clone https://github.com/benmevic/drink-water-reminder-react.git
+   git clone https://github.com/benmevic/mini-katalog-react.git
 ```
 3. Klasöre gir:
 ```
-   cd drink-water-reminder-react
+   cd mini-katalog-react
 ```
 4. Bağımlılıkları yükle:
 ```
@@ -40,9 +41,9 @@ Günlük su içme alışkanlığını takip etmeni sağlayan Flutter ile gelişt
 ## 📸 Ekran Görüntüleri
 
 ![Ana Sayfa](screenshots/anasayfa.png)
-![Geçmiş](screenshots/gecmis.png)
-![Ayarlar](screenshots/ayarlar.png)
+![Detay](screenshots/ürün.png)
+![Sepet](screenshots/sepet.png)
 
 ## 👩‍💻 Geliştirici
 
-Meriç Aytaş
+Meriç Aytaş.
